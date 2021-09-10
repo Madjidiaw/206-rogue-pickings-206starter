@@ -133,12 +133,12 @@ header nav ul li a {
 	width: 100%;
 	border-top: 0.06em solid #eee;
 }
-
+/*
 .section-two {
 	border-left: 0.06em solid #eee;
 	border-right: 0.06em solid #eee;
 }
-
+*/
 .section-one h3 {
 	padding: 0.63em 0;
 }
@@ -209,8 +209,8 @@ footer span {
 		
 	}
 	.section-two {
-		border-left: 0.06em solid #eee;
-	    border-right: 0.06em solid #eee;
+		/*border-left: 0.06em solid #eee;
+	    border-right: 0.06em solid #eee;*/
 		padding: 0 1.25em;
 	}
 } 
