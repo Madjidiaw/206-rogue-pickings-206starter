@@ -139,13 +139,12 @@ header nav ul li a {
 	border-right: 0.06em solid #eee;
 }
 */
-.section-one h3 {
-	padding: 0.63em 0;
-}
 
+.section-one h3,
 .section-two h3,
 .section-three h3 {
-	padding: 0.63em 1.88em;
+	/*padding: 0.63em 1.88em;*/
+	padding: 0.63em 0;
 }
 
 .menu {
@@ -201,16 +200,17 @@ footer span {
 	.section-one, 
 	.section-two, 
 	.section-three {
-		justify-content: center;
-	    align-items: center;
+		/*justify-content: center;
+	    align-items: center;*/
+		border-top: none;
 		flex-basis: 30%; 
 	
 		/*flex-flow: column wrap;*/
 		
 	}
 	.section-two {
-		/*border-left: 0.06em solid #eee;
-	    border-right: 0.06em solid #eee;*/
+		border-left: 0.06em solid #eee;
+	    border-right: 0.06em solid #eee;
 		padding: 0 1.25em;
 	}
 } 
